@@ -1,0 +1,21 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio showcasing my full-stack web development projects, technical skills, and professional experience.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiu920/myportfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/sergiu920/myportfolio/issues"
+  },
+  "homepage": "https://github.com/sergiu920/myportfolio#readme"
+}
