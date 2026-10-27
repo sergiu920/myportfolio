@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import Logo from '@/assets/logo.svg'
 
 const links = [
     { label: "About", href: "#about" },
@@ -14,8 +15,8 @@ export default function Header() {
     return (
         <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/80 backdrop-blur">
             <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
-                <a href="#" className="text-xl font-bold tracking-tight">
-                    <img src="/logo.svg" alt="Logo" className="h-8" />
+                <a href="#" className="flex items-center gap-2 text-xl font-bold tracking-tight">
+                    <img src={Logo} className="h-10 w-auto" alt="Serghei Muntean logo" />
                     Serghei Muntean<span className="text-indigo-600">.</span>
                 </a>
 

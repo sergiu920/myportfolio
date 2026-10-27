@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">SergheiMuntean personal logo</title>
+  <desc id="desc">Minimal white and electric-blue SM monogram above the SergheiMuntean wordmark.</desc>
+  <defs>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#C9D5E5"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#16C7FF"/>
+      <stop offset="100%" stop-color="#0875F5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Transparent background; place on a dark portfolio header for the intended look. -->
+  <g transform="translate(0 10)">
+    <!-- Geometric S -->
+    <path d="M 490,215
+             H 360
+             C 304,215 272,247 272,293
+             C 272,338 304,366 350,366
+             H 433
+             L 501,433
+             H 582
+             L 476,327
+             H 357
+             C 338,327 327,316 327,297
+             C 327,278 340,266 360,266
+             H 445 Z"
+          fill="url(#silver)"/>
+    <path d="M 277,378 H 426 L 491,443 H 410 Z" fill="url(#silver)"/>
+    <!-- Geometric M -->
+    <path d="M 466,215 H 531 L 625,306 L 770,196 V 444 H 711 V 309 L 625,375 Z"
+          fill="url(#blue)"/>
+    <path d="M 770,196 L 824,156 V 444 H 770 Z" fill="url(#blue)"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="600" y="585" text-anchor="middle"
+        font-family="Inter, Montserrat, Arial, sans-serif"
+        font-size="78" font-weight="750" letter-spacing="-2">
+    <tspan fill="#FFFFFF">Serghei</tspan><tspan fill="#119BFA">Muntean</tspan>
+  </text>
+</svg>
