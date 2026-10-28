@@ -24,7 +24,7 @@ export default function Hero() {
               View Projects <ArrowUpRight size={17} aria-hidden="true" />
             </a>
             <a
-              href="/cv.pdf"
+              href="/cv-serghei-muntean.pdf"
               download="Serghei-Muntean-CV.pdf"
               className="inline-flex min-h-12 items-center gap-2 rounded-md border border-gray-300 bg-white/70 px-5 py-3 text-sm font-semibold text-gray-800 transition-colors hover:border-gray-500 hover:bg-white"
             >
