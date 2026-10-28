@@ -848,6 +848,84 @@ html {
     outline-offset: 3px;
 }
 
+.site-footer {
+    background: #142d2a;
+    color: #d3ddd8;
+}
+
+.site-footer-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-identity {
+    display: grid;
+    gap: 4px;
+}
+
+.footer-identity a {
+    width: fit-content;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 650;
+    text-decoration: none;
+}
+
+.footer-identity span {
+    color: #aebfb8;
+    font-size: 12px;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 8px;
+}
+
+.footer-socials a {
+    display: grid;
+    width: 38px;
+    aspect-ratio: 1;
+    place-items: center;
+    border: 1px solid rgb(245 247 244 / 24%);
+    border-radius: 4px;
+    color: #f5f7f4;
+    transition: color 160ms ease, border-color 160ms ease, background-color 160ms ease;
+}
+
+.footer-socials a:hover {
+    border-color: #c4dc91;
+    background: rgb(196 220 145 / 10%);
+    color: #c4dc91;
+}
+
+.footer-socials svg {
+    width: 19px;
+    height: 19px;
+}
+
+.footer-socials a:last-child svg {
+    filter: brightness(0) invert(1);
+}
+
+.footer-socials a:focus-visible,
+.footer-identity a:focus-visible {
+    outline: 2px solid #c4dc91;
+    outline-offset: 3px;
+}
+
+.footer-meta {
+    display: flex;
+    grid-column: 1 / -1;
+    justify-content: space-between;
+    gap: 16px;
+    border-top: 1px solid rgb(245 247 244 / 18%);
+    padding-top: 15px;
+    color: #aebfb8;
+    font-size: 12px;
+}
+
 @media (max-width: 768px) {
     .about-inner {
         grid-template-columns: minmax(0, 1fr);
@@ -880,6 +958,13 @@ html {
     .skills-groups {
         grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 28px 20px;
+    }
+}
+
+@media (max-width: 540px) {
+    .footer-meta {
+        flex-direction: column;
+        gap: 7px;
     }
 }
 
