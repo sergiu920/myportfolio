@@ -681,9 +681,9 @@ html {
 
 .contact-inner {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(300px, 0.8fr);
-    align-items: center;
-    gap: 72px;
+    grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
+    align-items: start;
+    gap: 64px;
 }
 
 .contact-eyebrow {
@@ -704,12 +704,13 @@ html {
     display: flex;
     align-items: center;
     gap: 9px;
-    margin-top: 26px;
+    margin-top: 22px;
     color: #c2d0ca;
     font-size: 14px;
 }
 
 .contact-details {
+    margin-top: 22px;
     border-top: 1px solid rgb(245 247 244 / 24%);
 }
 
@@ -765,6 +766,86 @@ html {
     color: #d3ddd8;
     font-size: 14px;
     text-decoration: none;
+}
+
+.contact-form-wrap {
+    border-top: 1px solid rgb(245 247 244 / 24%);
+    padding-top: 18px;
+}
+
+.contact-form-heading {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 650;
+}
+
+.contact-form {
+    display: grid;
+    gap: 16px;
+    margin-top: 18px;
+}
+
+.contact-form label {
+    display: grid;
+    gap: 7px;
+    color: #d3ddd8;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    border: 1px solid rgb(245 247 244 / 30%);
+    border-radius: 4px;
+    background: rgb(255 255 255 / 5%);
+    padding: 11px 12px;
+    color: #ffffff;
+    font: inherit;
+    font-size: 14px;
+}
+
+.contact-form select {
+    color-scheme: dark;
+}
+
+.contact-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.contact-form input:focus-visible,
+.contact-form select:focus-visible,
+.contact-form textarea:focus-visible {
+    outline: 2px solid #c4dc91;
+    outline-offset: 2px;
+}
+
+.contact-form button {
+    display: inline-flex;
+    min-height: 46px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    justify-self: start;
+    border: 0;
+    border-radius: 4px;
+    background: #c4dc91;
+    padding: 11px 16px;
+    color: #193b35;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 650;
+}
+
+.contact-form button:hover {
+    background: #d2e7a9;
+}
+
+.contact-form button:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 3px;
 }
 
 @media (max-width: 768px) {
