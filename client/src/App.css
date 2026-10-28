@@ -674,6 +674,99 @@ html {
     content: "";
 }
 
+.contact-section {
+    background: #193b35;
+    color: #f5f7f4;
+}
+
+.contact-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(300px, 0.8fr);
+    align-items: center;
+    gap: 72px;
+}
+
+.contact-eyebrow {
+    color: #c4dc91;
+    font-size: 13px;
+    font-weight: 650;
+}
+
+.contact-intro {
+    max-width: 31rem;
+    margin-top: 20px;
+    color: #d3ddd8;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.contact-location {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-top: 26px;
+    color: #c2d0ca;
+    font-size: 14px;
+}
+
+.contact-details {
+    border-top: 1px solid rgb(245 247 244 / 24%);
+}
+
+.contact-method {
+    display: grid;
+    grid-template-columns: 24px minmax(0, 1fr) 18px;
+    align-items: center;
+    gap: 14px;
+    border-bottom: 1px solid rgb(245 247 244 / 24%);
+    padding: 18px 0;
+    color: #f5f7f4;
+    text-decoration: none;
+}
+
+.contact-method > span {
+    display: grid;
+    gap: 4px;
+}
+
+.contact-method-label {
+    color: #c4dc91;
+    font-size: 12px;
+}
+
+.contact-method-value {
+    overflow-wrap: anywhere;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.contact-method:hover .contact-method-value,
+.contact-socials a:hover {
+    color: #c4dc91;
+}
+
+.contact-method:focus-visible,
+.contact-socials a:focus-visible {
+    outline: 2px solid #c4dc91;
+    outline-offset: 4px;
+}
+
+.contact-socials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-top: 18px;
+}
+
+.contact-socials a {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: #d3ddd8;
+    font-size: 14px;
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     .about-inner {
         grid-template-columns: minmax(0, 1fr);
@@ -696,6 +789,11 @@ html {
 
     .experience-intro {
         justify-self: start;
+    }
+
+    .contact-inner {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 38px;
     }
 
     .skills-groups {
