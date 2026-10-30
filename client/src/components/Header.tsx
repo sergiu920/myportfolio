@@ -4,9 +4,8 @@ import Logo from "../assets/logo.svg";
 
 const links = [
     { label: "About", href: "#about" },
-    { label: "Projects", href: "#projects" },
     { label: "Skills", href: "#skills" },
-    
+    { label: "Projects", href: "#projects" },
     { label: "Experience", href: "#experience" },
     { label: "Contact", href: "#contact" },
 ];
@@ -20,7 +19,7 @@ export default function Header() {
             <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
                 <a href="#" className="flex items-center gap-2 text-xl font-bold tracking-tight">
                     <img src={Logo} className="h-10 w-auto" alt="Serghei Muntean logo" />
-                    Serghei Muntean<span className="text-indigo-600">.</span>
+                    Serghei Muntean <span className="font-normal">| Portfolio</span>
                 </a>
 
                 {/* Desktop menu */}
@@ -70,5 +69,4 @@ export default function Header() {
         </header>
     );
 }
-
 
