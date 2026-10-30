@@ -7,14 +7,19 @@ export default function Hero() {
       <div className="mx-auto grid min-h-[calc(100svh-4rem)] max-w-6xl items-center gap-12 px-4 py-16 md:grid-cols-[1.1fr_0.9fr] md:gap-16 md:py-20">
         <div className="hero-copy">
           <p className="mb-5 text-sm font-semibold uppercase tracking-[0.16em] text-indigo-600">
-            Full-Stack Developer
+            Full-Stack Web Developer
           </p>
           <h1 className="max-w-2xl text-5xl font-bold leading-[1.08] text-gray-950 md:text-6xl">
             Hi, I&apos;m <span className="text-indigo-600">Serghei Muntean.</span>
           </h1>
+          <h2 className="mt-7 max-w-xl text-xl font-semibold leading-8 text-gray-700">
+            I build reliable software solutions that solve real business problems.
+          </h2>
           <p className="mt-7 max-w-xl text-lg leading-8 text-gray-600">
-            I build web applications, APIs, and e-commerce solutions using PHP, Laravel,
-            JavaScript, and modern web technologies.
+            I'm a Full-Stack Developer with 8 years of professional experience,
+            specializing in PHP, Laravel, JavaScript, and MySQL. I develop
+            backend systems, REST APIs, third-party integrations, <br /> and e-commerce
+            solutions, turning complex business requirements into practical software.
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-3">
             <a
@@ -29,6 +34,12 @@ export default function Hero() {
               className="inline-flex min-h-12 items-center gap-2 rounded-md border border-gray-300 bg-white/70 px-5 py-3 text-sm font-semibold text-gray-800 transition-colors hover:border-gray-500 hover:bg-white"
             >
               Download CV <ArrowDownToLine size={17} aria-hidden="true" />
+            </a>
+            <a
+              href="#contact"
+              className="inline-flex min-h-12 items-center gap-2 rounded-md border border-gray-300 bg-white/70 px-5 py-3 text-sm font-semibold text-gray-800 transition-colors hover:border-gray-500 hover:bg-white"
+            >
+              Contact Me
             </a>
           </div>
         </div>
